@@ -135,6 +135,9 @@ i {
   width: 80%;
   margin: auto;
 }
+.terza-sezione .contenitore-sotto{
+  display: flex;
+}
 .contenitore-sinistra{
   flex-basis: 30%;
 }
@@ -195,8 +198,11 @@ i {
   .seconda-sezione .logo{
     flex-basis: 50%;
   }
-  .contenitore-destra .contenuto{
+  .terza-sezione .contenitore-destra .contenuto{
     flex-basis: 100%;
+  }
+  .terza-sezione .contenitore-sotto{
+    display: block;
   }
 }
 
@@ -205,7 +211,10 @@ i {
   .seconda-sezione .logo{
     flex-basis: 50%;
   }
-  .contenitore-destra .contenuto{
+  .terza-sezione .contenitore-destra .contenuto{
     flex-basis: 100%;
+  }
+  .terza-sezione .contenitore-sotto{
+    display: block;
   }
 }
