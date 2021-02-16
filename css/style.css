@@ -125,6 +125,65 @@ i {
   line-height: 100px;
 }
 
+/* Terza Sezione */
+.terza-sezione .contenitore-sopra h3,
+.terza-sezione .contenitore-sopra p{
+  text-align: center;
+}
+.terza-sezione .contenitore-sopra,
+.terza-sezione .contenitore-sotto{
+  width: 80%;
+  margin: auto;
+}
+.contenitore-sinistra{
+  flex-basis: 30%;
+}
+.contenitore-destra{
+  flex-basis: 70%;
+  flex-wrap: wrap;
+}
+.contenitore-destra .contenuto{
+  flex-basis: 50%;
+}
+
+.terza-sezione .contenitore-sopra h3{
+  margin: 50px 0px 15px 0px;
+}
+.terza-sezione .contenitore-sopra p{
+  width: 80%;
+  margin: 10px auto;
+}
+
+.terza-sezione .contenitore-sotto h4{
+  font-size: 15px;
+}
+.terza-sezione .contenitore-sotto ul{
+  margin: 30px 0px;
+}
+.terza-sezione .contenitore-sotto ul li{
+  list-style: none;
+  border-left: 2px solid lightgrey;
+  padding: 5px 10px;
+}
+.terza-sezione .contenitore-sotto ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.terza-sezione .contenitore-sotto img{
+  margin: 30px 0px 0px 0px;
+}
+.terza-sezione .contenitore-sotto p{
+  width: 90%;
+}
+
+.terza-sezione .contenitore-sotto ul li:hover {
+  border-left: 2px solid blue;
+}
+.terza-sezione .contenitore-sotto ul li a:hover {
+  color: #041C4F;
+}
+
+
 /* Media Query */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -136,11 +195,17 @@ i {
   .seconda-sezione .logo{
     flex-basis: 50%;
   }
+  .contenitore-destra .contenuto{
+    flex-basis: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
 
   .seconda-sezione .logo{
     flex-basis: 50%;
+  }
+  .contenitore-destra .contenuto{
+    flex-basis: 100%;
   }
 }
