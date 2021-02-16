@@ -99,13 +99,19 @@ i {
 /* Seconda Sezione */
 .seconda-sezione{
   background-color: #F2F5F9;
+  width: 100%;
+}
+.seconda-sezione .titolo,
+.seconda-sezione .loghi,
+.seconda-sezione .link{
+  width: 80%;
+  margin: auto;
 }
 .seconda-sezione div:first-child,
 .seconda-sezione div:last-child{
   justify-content: center;
 }
 .seconda-sezione .loghi{
-  width: 100%;
   flex-wrap: wrap;
   align-content: flex-start;
 }
@@ -190,7 +196,9 @@ i {
 /* Media Query */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
+  .seconda-sezione .logo{
+    flex-basis: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
