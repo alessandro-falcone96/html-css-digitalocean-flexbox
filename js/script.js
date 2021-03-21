@@ -7,7 +7,7 @@ $(document).ready(function() {
   // Azioni primo carousel
   $(".primo-carousel .fa-chevron-right").click(
     function() {
-      var imgActive = $('.primo-carousel .box-img img.active');
+      var imgActive = $('.primo-carousel .box-img div.active');
       var circleActive = $('.quarta-sezione .nav i.active');
 
       $(imgActive).removeClass("active");
@@ -15,7 +15,7 @@ $(document).ready(function() {
       $(circleActive).addClass("far");
 
       if (imgActive.is('.last')) {
-        $('.primo-carousel .box-img img.first').addClass("active");
+        $('.primo-carousel .box-img div.first').addClass("active");
         $('.quarta-sezione .nav i.first').removeClass("active far");
         $('.quarta-sezione .nav i.first').addClass("active fas");
       } else {
@@ -29,7 +29,7 @@ $(document).ready(function() {
   $('html').keydown(function(evento){
     if ((evento.which) == 39) {    //39 freccia destra
       {
-        var imgActive = $('.primo-carousel .box-img img.active');
+        var imgActive = $('.primo-carousel .box-img div.active');
         var circleActive = $('.quarta-sezione .nav i.active');
 
         $(imgActive).removeClass("active");
@@ -37,7 +37,7 @@ $(document).ready(function() {
         $(circleActive).addClass("far");
 
         if (imgActive.is('.last')) {
-          $('.primo-carousel .box-img img.first').addClass("active");
+          $('.primo-carousel .box-img div.first').addClass("active");
           $('.quarta-sezione .nav i.first').removeClass("active far");
           $('.quarta-sezione .nav i.first').addClass("active fas");
         } else {
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
   $(".primo-carousel .fa-chevron-left").click(
     function() {
-      var imgActive = $('.primo-carousel .box-img img.active');
+      var imgActive = $('.primo-carousel .box-img div.active');
       var circleActive = $('.quarta-sezione .nav i.active');
 
       $(imgActive).removeClass("active");
@@ -60,7 +60,7 @@ $(document).ready(function() {
       $(circleActive).addClass("far");
 
       if (imgActive.is('.first')) {
-        $('.primo-carousel .box-img img.last').addClass("active");
+        $('.primo-carousel .box-img div.last').addClass("active");
         $('.quarta-sezione .nav i.last').removeClass("active far");
         $('.quarta-sezione .nav i.last').addClass("active fas");
       } else {
@@ -74,7 +74,7 @@ $(document).ready(function() {
   $('html').keydown(function(evento){
     if ((evento.which) == 37) {    //37 freccia sinistra
       {
-        var imgActive = $('.primo-carousel .box-img img.active');
+        var imgActive = $('.primo-carousel .box-img div.active');
         var circleActive = $('.quarta-sezione .nav i.active');
 
         $(imgActive).removeClass("active");
@@ -82,7 +82,7 @@ $(document).ready(function() {
         $(circleActive).addClass("far");
 
         if (imgActive.is('.first')) {
-          $('.primo-carousel .box-img img.last').addClass("active");
+          $('.primo-carousel .box-img div.last').addClass("active");
           $('.quarta-sezione .nav i.last').removeClass("active far");
           $('.quarta-sezione .nav i.last').addClass("active fas");
         } else {

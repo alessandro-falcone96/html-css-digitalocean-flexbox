@@ -337,10 +337,10 @@ header #menu{
 }
 
 /* PROVA PRIMO CAROUSEL */
-.quarta-sezione .primo-carousel .box-img > img{
+.quarta-sezione .primo-carousel .box-img > div{
   display: none;
 }
-.quarta-sezione .primo-carousel .box-img img.active{
+.quarta-sezione .primo-carousel .box-img div.active{
   display: inline-block;
 }
 
