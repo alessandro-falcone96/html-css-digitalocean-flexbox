@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="41px" viewBox="0 0 27 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>dropletfallingicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.12%" y1="29.025%" x2="50.12%" y2="103.864%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.089%" y1="50.61%" x2="100.199%" y2="50.61%" id="linearGradient-2">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dropletfallingicon" transform="translate(1.000000, 0.000000)">
+            <path d="M12.098,19.22 C12.098,19.22 3.902,19.024 1.854,21.268 C0.293,23.024 0,25.561 0,27.902 C0,34.537 5.463,40 12.098,40 C18.829,40 24.195,34.537 24.195,27.902 C24.195,25.952 23.707,23.902 22.635,22.049 C20.878,18.829 12.098,19.219 12.098,19.219 L12.098,19.22 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" cx="12.098" cy="22.049" rx="10.049" ry="3.317"></ellipse>
+            <ellipse id="Oval" stroke="#0069FF" stroke-width="2" cx="12.098" cy="22.049" rx="10.049" ry="3.317"></ellipse>
+            <path d="M12.098,9.854 C12.098,9.854 0,18.732 0,27.804 C0,34.538 5.463,40 12.098,40 C18.829,40 24.195,34.537 24.195,27.902 C24.293,19.122 12.098,9.854 12.098,9.854 Z" id="Path" stroke="#120078" stroke-width="2"></path>
+            <path d="M2.341,5.268 L2.341,12.195 M23.707,7.415 L23.707,15.902 M9.561,0 L9.561,7.122 M16.878,1.951 L16.878,8.878" id="Shape" stroke="#0069FF" stroke-width="2" opacity="0.3"></path>
+        </g>
+    </g>
+</svg>

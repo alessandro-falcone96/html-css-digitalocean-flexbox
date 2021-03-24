@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>resizedropleticon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="28.458%" y1="84.156%" x2="70.705%" y2="31.688%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="resizedropleticon" transform="translate(1.000000, 1.000000)">
+            <path d="M15.4,37.6 L18.9,37.6 C26.354,37.594 32.394,31.554 32.4,24.1 C32.4,14.4 18.9,4.1 18.9,4.1 C18.9,4.1 5.4,14 5.4,24.1 L5.4,27.4" id="Path" stroke="#0069FF" stroke-width="2"></path>
+            <path d="M12.3,37.6000216 L14.7,37.6000216 C17.168142,37.605325 19.5367286,36.6272165 21.2819725,34.8819725 C23.0272165,33.1367286 24.005325,30.768142 24.0000216,28.3 C24.0000216,21.6 14.7,14.5 14.7,14.5 C14.7,14.5 5.4,21.3 5.4,28.3 L5.4,30.6" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <path d="M16.3,37.5 C20.7572807,36.7050004 24.002477,32.8276229 24.0000014,28.3 C24.0000014,21.6 14.7,14.5 14.7,14.5 C14.7,14.5 7,20.1 5.6,26.4" id="Path" stroke="#0069FF" stroke-width="2" opacity="0.3"></path>
+            <path d="M5.4,32.9 C5.4,29.3 10.2,25.8 10.2,25.8 C10.2,25.8 15,29.4 15,32.9 C15,35.5509668 12.8509668,37.7 10.2,37.7 C7.5490332,37.7 5.4,35.5509668 5.4,32.9 Z" id="Path" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M33.4,0 L38.8,0 L38.8,5.4 M0,5.4 L0,0 L5.4,0 M38.8,31.4 L38.8,36.8 L33.4,36.8" id="Shape" stroke="#120078" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

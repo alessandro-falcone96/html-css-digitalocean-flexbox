@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>teamicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="83.984%" y1="84.018%" x2="15.777%" y2="15.811%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.557%" y1="1.251%" x2="49.557%" y2="92.724%" id="linearGradient-2">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.895%" y1="-0.254%" x2="49.895%" y2="98.066%" id="linearGradient-3">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="teamicon" transform="translate(0.000000, 1.000000)">
+            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="22.163" cy="20.666" r="10.559"></circle>
+            <path d="M31.39,30.178 C27.776,30.178 22.83,32.461 22.924,38.739 L40.046,38.644 C39.951,32.461 35.005,30.178 31.39,30.178 L31.39,30.178 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            <path d="M9.417,8.3 C5.802,8.3 0.857,10.583 0.951,16.861 L0.951,20.476 L18.073,20.19 L18.073,16.861 C17.978,10.583 13.127,8.3 9.417,8.3 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+            <g id="Group" opacity="0.3" transform="translate(6.000000, 4.500000)" stroke="#0069FF" stroke-width="2">
+                <path d="M0.088,16.737 C0.278,24.347 5.795,30.624 13.024,32.147 M32.239,17.307 L32.239,16.357 C32.239,7.51 25.009,0.28 16.163,0.28 C14.927,0.28 13.69,0.376 12.549,0.661" id="Shape"></path>
+            </g>
+            <path d="M39.951,38.739 C39.951,32.461 35.005,30.178 31.391,30.273 C27.776,30.273 22.829,32.556 22.924,38.834" id="Path" stroke="#0069FF" stroke-width="2"></path>
+            <circle id="Oval" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="31.39" cy="26.754" r="4.376"></circle>
+            <path d="M18.073,16.766 C18.073,10.488 13.127,8.205 9.513,8.3 C5.898,8.395 0.951,10.583 1.046,16.861" id="Path" stroke="#0069FF" stroke-width="2"></path>
+            <circle id="Oval" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="9.417" cy="4.876" r="4.376"></circle>
+            <path d="M22.163,17.812 L22.163,23.424 M19.405,20.666 L25.017,20.666" id="Shape" stroke="#120078" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="41px" viewBox="0 0 42 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>nativelyintegratedicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.931%" y1="0.209%" x2="49.931%" y2="96.798%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nativelyintegratedicon" transform="translate(1.000000, 1.000000)">
+            <path d="M12.857,30.971 C5.905,30.971 0,25.352 0,18.4 C0,7.733 12.857,0.59 12.857,0.59 C12.857,0.59 25.714,7.924 25.714,18.4 C25.714,25.352 19.81,30.971 12.857,30.971 Z" id="Path" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M37.048,17.257 L14.858,17.257 C13.81,17.257 12.858,18.114 12.858,19.257 L12.858,36.495 C12.858,37.543 13.714,38.495 14.858,38.495 L37.143,38.495 C38.19,38.495 39.143,37.638 39.143,36.495 L39.143,19.257 C39.048,18.21 38.19,17.257 37.048,17.257 Z" id="Path" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M12.857,26.971 C8,26.971 4,23.067 4,18.21 C4,10.876 12.857,5.638 12.857,5.638 C12.857,5.638 21.714,10.971 21.714,18.21 C21.714,23.067 17.619,26.971 12.857,26.971 L12.857,26.971 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <polyline id="Path" stroke="#0069FF" stroke-width="2" opacity="0.3" points="13.048 32.495 21.143 32.495 26.667 26.971 29.619 29.924 38.286 29.924"></polyline>
+            <path d="M23.238,1.352 L24.19,1.352 C30.095,1.352 34.952,6.114 34.952,12.114" id="Path" stroke="#B0D1FF" stroke-width="2"></path>
+            <polyline id="Path" stroke="#B0D1FF" stroke-width="2" points="37.905 8.114 35.238 12.59 30.858 9.829"></polyline>
+        </g>
+    </g>
+</svg>

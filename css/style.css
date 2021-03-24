@@ -249,18 +249,22 @@ header #menu{
   width: 80%;
   margin: auto;
 }
-.terza-sezione .contenitore-sotto{
-  display: flex;
-}
 .contenitore-sinistra{
   flex-basis: 30%;
 }
+.contenitore-sinistra i{
+  margin-left: 75px;
+  cursor: pointer;
+}
 .contenitore-destra{
   flex-basis: 70%;
+}
+.contenitore-destra > div{
   flex-wrap: wrap;
 }
 .contenitore-destra .contenuto{
   flex-basis: 50%;
+  min-height: 200px;
 }
 
 .terza-sezione .contenitore-sopra h3{
@@ -285,6 +289,7 @@ header #menu{
 .terza-sezione .contenitore-sotto ul li a{
   text-decoration: none;
   font-size: 20px;
+  cursor: pointer;
 }
 .terza-sezione .contenitore-sotto img{
   margin: 30px 0px 0px 0px;
@@ -293,11 +298,19 @@ header #menu{
   width: 90%;
 }
 
-.terza-sezione .contenitore-sotto ul li:hover {
+/* PROVA FINTO CAROUSEL */
+.terza-sezione .finto-carousel > div{
+  display: none;
+}
+.terza-sezione .finto-carousel div.active{
+  display: flex;
+}
+
+.terza-sezione .contenitore-sinistra ul li.activeBorderColor{
   border-left: 2px solid blue;
 }
-.terza-sezione .contenitore-sotto ul li a:hover {
-  color: #041C4F;
+.terza-sezione .contenitore-sinistra ul li a.activeColor{
+  color: #041c4f;
 }
 
 /* Quarta Sezione */
@@ -323,10 +336,12 @@ header #menu{
 }
 .quarta-sezione .box-img{
   width: 85%;
+  min-height: 831px;
 }
 .quarta-sezione img{
   width: 100%;
   object-fit: contain;
+  min-height: 680px;
 }
 .quarta-sezione [class*="chevron"]:hover {
   color: #031b4e;
@@ -365,7 +380,10 @@ header #menu{
   justify-content: space-between;
 }
 .quinta-sezione .tre-colonne > div{
-  width: 30%;
+  width: 25%;
+}
+.quinta-sezione .tre-colonne div p{
+  width: 85%;
 }
 .quinta-sezione img{
   margin-top: 10px;
@@ -448,7 +466,7 @@ header #menu{
 .settima-sezione .colonna-centrale{
   background-color: white;
   width: 75%;
-  min-height: 380px;
+  min-height: 393px;
 }
 .settima-sezione .colonna-centrale img{
   width: 30%;
@@ -513,31 +531,48 @@ header #menu{
 /* Footer */
 footer{
   background-color: #010F28;
-  justify-content: space-around;
 }
 footer ul li{
   list-style: none;
 }
-footer .colonna-sinistra p{
-  color: lightgrey;
+footer .contenitore-sotto{
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
-footer .colonna-sinistra span{
+footer .contenitore-sotto div:first-child{
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+footer .contenitore-sotto p{
+  color: lightgrey;
+  padding-left: 20px;
+}
+footer .contenitore-sotto span{
   color: grey;
 }
-footer .colonna-sinistra ul{
+footer .contenitore-sotto ul{
   padding-left: 0;
 }
-footer .colonna-sinistra ul li{
+footer .contenitore-sotto ul li{
   display: inline-block;
+  padding: 0px 10px;
 }
-footer .colonna-sinistra i{
+footer .contenitore-sotto i{
   color: grey;
 }
-footer .colonna-destra .first{
+footer .contenitore-sopra{
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+footer .contenitore-sopra .first{
   color: white;
   font-size: 20px;
 }
-footer .colonna-destra li a{
+footer .contenitore-sopra li a{
   display: inline-block;
   padding: 3px 0px;
   color: lightgrey;
@@ -608,14 +643,14 @@ footer .contenitore-supporto .squaletto .cerchietto{
   footer{
     flex-wrap: wrap;
   }
-  footer .colonna-sinistra{
+  footer .contenitore-sotto{
     margin-left: 150px;
     width: 100%;
   }
-  footer .colonna-destra{
+  footer .contenitore-sopra{
     flex-wrap: wrap;
   }
-  footer .colonna-destra ul{
+  footer .contenitore-sopra ul{
     width: 50%;
   }
 }
@@ -671,14 +706,14 @@ footer .contenitore-supporto .squaletto .cerchietto{
   footer{
     flex-wrap: wrap;
   }
-  footer .colonna-sinistra{
+  footer .contenitore-sotto{
     margin-left: 150px;
     width: 100%;
   }
-  footer .colonna-destra{
+  footer .contenitore-sopra{
     flex-wrap: wrap;
   }
-  footer .colonna-destra ul{
+  footer .contenitore-sopra ul{
     width: 50%;
   }
 }
@@ -749,14 +784,14 @@ footer .contenitore-supporto .squaletto .cerchietto{
   footer{
     flex-wrap: wrap;
   }
-  footer .colonna-sinistra{
+  footer .contenitore-sotto{
     margin-left: 50px;
     width: 100%;
   }
-  footer .colonna-destra{
+  footer .contenitore-sopra{
     flex-wrap: wrap;
   }
-  footer .colonna-destra ul{
+  footer .contenitore-sopra ul{
     width: 100%;
   }
 }
